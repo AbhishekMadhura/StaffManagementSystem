@@ -1,0 +1,142 @@
+#font
+{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+ }
+ #banner
+ {
+ background-image:url(Bg4.jpg);
+ background-size: cover;
+ background-position: center;
+  } 
+.banner-btn
+{
+margin:0px auto 0;
+}
+.banner-btn a
+{
+width: 110px;
+text-decoration: none;
+display:inline-block;
+margin: 10px;
+padding: 5px;
+font-size:12px;
+color:black;
+border:2px solid black;
+text-transform: uppercase;
+font-family: sans-serif;
+background-color:#fff;
+}
+#topbar
+{
+top:0px;
+width:100%;
+height:5%;
+}
+.head
+{
+font-size:30px;
+text-align:center;
+color:black;
+font-family:Britannic;
+}
+.loginlogo
+{
+position:absolute;
+top:12px;
+right:25px;
+}
+#sidebar
+{
+position:fixed;
+box-shadow: 0 0 28px rgba(0,0,0,.08);
+width:15%;
+height:20%;
+right:-30%;
+border:2px solid white;
+border-radius:10px;
+padding:20px;
+top:10%;
+background-color:white;
+}
+#sidebar.active
+{
+right:3%;
+}
+#btn
+{
+display:block;
+position:absolute;
+left:30%;
+top:75%;
+}
+input
+{
+text-decoration: none;
+border:1px solid black;
+font-size:15px;
+padding-bottom:1px;
+padding:5px;
+text-align:center;
+border-radius:30px;
+width:100%;
+height:20%;
+background:none;
+color:black;
+ }
+#a:hover{
+background:(0,150,255);
+}
+a:hover{
+color:rgb(0,150,255);
+}	
+input[type="submit"]:hover{
+background:rgb(0,150,255);
+color:white;	
+}
+input.signup
+{
+background-color:rgb(0,150,255);
+width:90px;
+height:30px;
+border:0px solid white;
+border-radius:35px;
+font-size:12px;
+padding:2px;
+}
+input.button2
+{
+    width:15%;
+    height:15%;
+    font-size:15px;
+    color:black;
+    border:1px solid white;
+    border-radius:30px;
+    text-align:center;
+    display:block;
+    position:absolute;
+    right:2%;
+    top:1%;
+    font-family: sans-serif;
+}
+input.button2[type="button"]:hover{
+    background-color:#F0F0F0;
+}
+
+#subtitle
+{
+    position:fixed;
+    left:30%;
+    top: 15%;
+}
+#subtitle h1
+{
+    color:black;
+    font-family:Franklin Gothic Heavy   ;
+}
+#subtitle p
+{
+    color:rgb(137, 135, 135);
+    font-family:Franklin Gothic Book;
+}
